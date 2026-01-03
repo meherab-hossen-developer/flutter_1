@@ -13,7 +13,7 @@ class Nav extends StatelessWidget {
           color: Colors.white,
         )),
         centerTitle: true,
-        backgroundColor: Color.fromRGBO(20, 13, 73, 1.0),
+        backgroundColor: Color.fromRGBO(20, 148, 203, 1.0),
       ),
       body: SingleChildScrollView(
         child: Center(
@@ -21,11 +21,11 @@ class Nav extends StatelessWidget {
         
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-        
+
               ElevatedButton(
                   style: ElevatedButton.styleFrom(
         
-                    backgroundColor: Color.fromRGBO(20, 13, 73, 1.0),
+                    backgroundColor: Color.fromRGBO(20, 148, 203, 1.0),
                     foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.5),
@@ -47,7 +47,7 @@ class Nav extends StatelessWidget {
                 child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
         
-                        backgroundColor: Color.fromRGBO(20, 13, 73, 1.0),
+                        backgroundColor: Color.fromRGBO(20, 148, 203, 1.0),
                         foregroundColor: Colors.white,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10.5),
@@ -70,7 +70,7 @@ class Nav extends StatelessWidget {
                 child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
         
-                        backgroundColor: Color.fromRGBO(20, 13, 73, 1.0),
+                        backgroundColor: Color.fromRGBO(20, 148, 203, 1.0),
                         foregroundColor: Colors.white,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(0),
@@ -100,7 +100,7 @@ class Nav extends StatelessWidget {
                 width: 100,
                 child: TextButton(
                     style: TextButton.styleFrom(
-                      foregroundColor: Color.fromRGBO(20, 13, 73, 1.0),
+                      foregroundColor: Color.fromRGBO(20, 148, 203, 1.0),
                       // This changes the text color
                     ),
                     onPressed: () {
