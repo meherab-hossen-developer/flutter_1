@@ -48,7 +48,8 @@ class login extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(padding: const EdgeInsets.all(15),
+            Padding(
+                padding: const EdgeInsets.all(15),
               child: SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
@@ -64,9 +65,13 @@ class login extends StatelessWidget {
                 }, child: Text('Login')),
               )
             ),
-
-            SizedBox(
-              child: TextButton(onPressed: (){
+              TextButton(
+                  style: TextButton.styleFrom(
+                    padding: EdgeInsets.zero,
+                    minimumSize: Size.zero,
+                    tapTargetSize: MaterialTapTargetSize.shrinkWrap
+                  ),
+                  onPressed: (){
                 print('Forget password button pressed');
               },
                   child: Text('Forgot Password?',
@@ -75,9 +80,14 @@ class login extends StatelessWidget {
                   color: Colors.black.withOpacity(0.5)
                 ),
               )),
-            ),
             SizedBox(
-              child: TextButton(onPressed: (){
+              child: TextButton(
+                  style: TextButton.styleFrom(
+                    padding: EdgeInsets.all(8),
+                    minimumSize: Size.zero,
+                    tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  ),
+                  onPressed: (){
                 print('Sign up button pressed');
               },
                   child: Text('Don\'t have an account? Sign up',
